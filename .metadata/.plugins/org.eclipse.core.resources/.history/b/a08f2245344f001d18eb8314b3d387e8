@@ -1,0 +1,10 @@
+package curso321;
+public class Main {
+	public static void main(String args[]) {
+		System.out.println("Hola Mundo cruel");
+		Perro P = new Perro();
+		System.out.println(P.Comer("Carne"));
+	}
+	
+	
+}

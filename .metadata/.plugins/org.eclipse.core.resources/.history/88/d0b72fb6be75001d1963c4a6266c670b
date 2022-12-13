@@ -1,0 +1,34 @@
+package taller2_variables_java_estructura_datos;
+
+public class Taller {
+	public static void main(String args[]) {
+//		actividad1();
+		int notas[];
+		notas = new int[] {1, 4, 3, 5, 2, 4};
+		PromedioAlumno(notas);
+	}
+
+	public static void actividad1 (){
+		int E = 1;
+		double D = 1.2;
+		char C = 'C';
+		
+		System.out.println("E es: " + E + " D es: " + D + " C es: " +  C);
+	}
+	
+	/* Actividad 2
+	 * Mostrar el promedio de 6 notas de un alumno y
+	 * que se ordene de Mayor a menor
+	 */
+	public static void PromedioAlumno(int args[]) {
+		int acc_notas = 0;
+		for (int i = 0; i < args.length; i++) {
+			acc_notas = args[i] + acc_notas;
+		}
+		double promedio = acc_notas / args.length;
+		System.out.println("El promedio es: " + promedio);
+	}
+
+}
+
+

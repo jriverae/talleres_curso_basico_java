@@ -1,0 +1,5 @@
+package curso321;
+
+public interface Acciones {
+
+}

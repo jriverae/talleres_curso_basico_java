@@ -1,0 +1,17 @@
+package taller2_variables_java_estructura_datos;
+
+public class Taller {
+	public static void main(String args[]) {
+		actividad1();
+	}
+	public static void actividad1 (){
+		int E = 1;
+		double D = 1.2;
+		char C = 'C';
+		
+		System.out.println("E es: " + E + " D es: " + D + " C es: " +  C);
+	}
+
+}
+
+

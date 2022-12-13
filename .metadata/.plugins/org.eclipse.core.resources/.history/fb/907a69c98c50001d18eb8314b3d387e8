@@ -1,0 +1,6 @@
+package curso321;
+
+public class Gato extends Animal {
+	
+	public String ColorOjos;
+}

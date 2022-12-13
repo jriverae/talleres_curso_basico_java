@@ -1,0 +1,21 @@
+package curso321;
+
+public class Animal implements Acciones {
+
+	public String nombre;
+	public String raza;
+	public String altura;
+
+	@Override
+	public String Correr() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String Nadar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

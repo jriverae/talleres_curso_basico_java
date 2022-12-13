@@ -1,0 +1,22 @@
+package taller3_estructuras_control;
+import java.util.*;
+public class Taller3 {
+	public static void main(String args[]) {
+		Actividad1();
+	}
+	
+	public static void Actividad1 () {
+		Scanner sc = new Scanner(System.in);
+		int number_value = sc.nextInt();
+		System.out.println("Digite el valor numerico positivo: ");	
+		do {
+			System.out.println("Digite el valor numerico positivo: ");	
+		} while (number_value < 0);
+		
+		int sumatoria = 1;
+		for (int i = 0; i <= number_value; i++) {
+			sumatoria = sumatoria + (i+1);
+		}
+		System.out.println("La suma de entre 1 y el numero: " + number_value + " es: " + sumatoria);	
+	}
+}
